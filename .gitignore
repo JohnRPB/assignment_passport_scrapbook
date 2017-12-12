@@ -1,4 +1,4 @@
 node_modules/
-facebook_credentials.*
+facebook_credentials.json*
 .*.\~undo-tree\~
 *.*.\~

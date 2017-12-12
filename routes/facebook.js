@@ -14,6 +14,8 @@ passport.use(
       callbackURL: "http://localhost:3000/auth/facebook/callback"
     },
     function(accessToken, refreshToken, profile, done) {
+      console.log("----- All that shit -----");
+      console.log(accessToken, refreshToken, profile);
       const facebookId = profile.id;
       const displayName = profile.displayName;
 
